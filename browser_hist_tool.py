@@ -5,7 +5,9 @@ import matplotlib.pyplot as plt
 
 def get_chrome_history():
     # Chrome history database path
-    history_db_path = "C:\\Users\\Akash\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History"
+    # Find You Path this path is for Windows 
+    # C:\\Users\\Akash\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History
+    history_db_path = "Your Path"
 
     # Connect to the database
     connection = sqlite3.connect(history_db_path)
